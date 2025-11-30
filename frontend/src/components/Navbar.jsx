@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="relative bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-lg">
+    <div className="relative bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-lg">
       {/* Moving Animated Border */}
       <div className="absolute inset-0 border-4 border-blue-500 rounded-lg animate-border"></div>
 
