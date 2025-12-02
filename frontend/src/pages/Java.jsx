@@ -173,7 +173,7 @@ const Java = () => {
         {/* CARDS SECTION */}
         <h3 className="text-xl text-gray-300 mb-6">Learning Modes</h3>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           <div className="p-6 rounded-2xl bg-linear-to-br from-yellow-400/60 to-orange-500/60 
                           backdrop-blur-md border border-white/20 shadow-xl">
             <h2 className="text-xl font-bold mb-1 text-white drop-shadow">Visual Learning</h2>
@@ -197,6 +197,19 @@ const Java = () => {
             <button
               onClick={() => navigate("/javaIq")}
               className="bg-white/20 text-white px-4 py-2 rounded-lg border border-white/30"
+            >
+              Access
+            </button>
+          </div>
+          <div className="p-6 rounded-2xl bg-linear-to-br from-violet-400/60 to-violet-600/60 
+                          backdrop-blur-md border border-white/20 shadow-xl">
+            <h2 className="text-xl font-bold mb-1 text-white drop-shadow">Java Bot Service</h2>
+            <p className="text-sm text-white/90 mb-4">
+              Dive into Java with interactive chatbot.
+            </p>
+            <button
+              onClick={() => navigate("/javabot")}
+              className="bg-black/40 text-white px-4 py-2 rounded-lg border border-white/20"
             >
               Access
             </button>
