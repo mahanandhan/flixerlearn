@@ -187,14 +187,14 @@ const SoftwareEngineer = () => {
     <>
       {/* Helmet for SEO */}
       <Helmet>
-        <title>Software Engineering | LearnPeak</title>
+        <title>Software Engineering | FlixerLearn</title>
         <meta
           name="description"
-          content="Explore Software Engineering courses at LearnPeak. Learn web development, AI, Cybersecurity, data science, and more with hands-on projects and interview preparation."
+          content="Explore Software Engineering courses at FlixerLearn. Learn web development, AI, Cybersecurity, data science, and more with hands-on projects and interview preparation."
         />
         <meta
           name="keywords"
-          content="Software Engineering, LearnPeak, Web Development, Cyber Security, AI, Data Science, Programming, Interview Prep"
+          content="Software Engineering, FlixerLearn, Web Development, Cyber Security, AI, Data Science, Programming, Interview Prep"
         />
         <link rel="canonical" href="https://elearning-platform-zksp.vercel.app/software-engineering" />
       </Helmet>
@@ -203,7 +203,7 @@ const SoftwareEngineer = () => {
 
         {/* TOP BAR */}
         <div className="flex justify-between items-center mb-10">
-          <h2 className="text-2xl font-semibold text-gray-300">Learn Peak</h2>
+          <h2 className="text-2xl font-semibold text-gray-300">FlixerLearn</h2>
           <div className="flex items-center space-x-4">
             <input
               type="text"

@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 import coursesData from "../assets/data"; 
 import { FcAbout } from "react-icons/fc";
 import { FaBars } from "react-icons/fa";
-import logoLearn from "../../src/assets/logoLearn.jpg";
-
 const HomeIcon = (props) => (
     <svg {...props} fill="currentColor" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" /></svg>
 );
@@ -57,7 +55,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => (
         
         <div className="mb-10 p-2">
             <img 
-                src={logoLearn} 
+                src="flixerlearnlogo.jpg"
                 alt="Learn Peak Logo" 
                 className="w-12 h-12 object-cover rounded-full border border-indigo-400"
             />
@@ -213,7 +211,7 @@ const DashboardLayout = () => {
               )}
 
               <div className="absolute inset-0 bg-black/60 z-10"></div>
-              <div className="absolute inset-0 bg-gradient-to-r from-pink-500/10 via-indigo-500/10 to-cyan-500/10 z-10"></div>
+              <div className="absolute inset-0 bg-linear-to-r from-pink-500/10 via-indigo-500/10 to-cyan-500/10 z-10"></div>
               
               <div className="absolute top-1/2 -translate-y-1/2 left-4 z-30"> 
                   <CarouselArrowIcon direction="left" onClick={() => navigateFeature('left')} />
@@ -333,7 +331,7 @@ const DashboardLayout = () => {
                     state={course}
                     className="shrink-0 w-64 md:w-80 relative bg-gray-900 rounded-xl shadow-xl transform transition duration-300 hover:scale-[1.02] cursor-pointer overflow-hidden border border-gray-800 block" 
                     >
-                    <div className={`absolute inset-0 -m-px rounded-xl bg-gradient-to-r ${getCardGradient(index)} opacity-30 blur-sm`}></div>
+                    <div className={`absolute inset-0 -m-px rounded-xl bg-linear-to-r ${getCardGradient(index)} opacity-30 blur-sm`}></div>
                     
                     <div className="relative p-4 md:p-5 z-10">
                         {course.image && (

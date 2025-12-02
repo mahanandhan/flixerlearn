@@ -84,7 +84,7 @@ const MobileAppDevelopment = () => {
 
         {/* TOP BAR */}
         <div className="flex justify-between items-center mb-10">
-          <h2 className="text-2xl font-semibold text-gray-300">Learn Peak</h2>
+          <h2 className="text-2xl font-semibold text-gray-300">FlixerLearn</h2>
           <div className="flex items-center space-x-4">
             <input
               type="text"

@@ -2,10 +2,10 @@
 
 // const AimlVl = () => {
 //   return (
-//     <div className="min-h-screen bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-100 text-white px-6 py-12">
+//     <div className="min-h-screen bg-linear-to-r from-indigo-200 via-purple-200 to-pink-100 text-white px-6 py-12">
 //       {/* Main Title */}
 //       <div className="mb-8 text-center">
-//         <h1 className="text-4xl sm:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-indigo-600 mb-4">
+//         <h1 className="text-4xl sm:text-6xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-teal-400 to-indigo-600 mb-4">
 //           AI & ML
 //         </h1>
 //       </div>
@@ -16,7 +16,7 @@
 //       </div>
 
 //       {/* AI & ML Introduction Video */}
-//       <div className="bg-gradient-to-r from-teal-300 to-indigo-300 p-8 rounded-xl shadow-2xl space-y-6 mt-8">
+//       <div className="bg-linear-to-r from-teal-300 to-indigo-300 p-8 rounded-xl shadow-2xl space-y-6 mt-8">
 //         <h1 className="text-2xl sm:text-3xl font-semibold text-yellow-500 text-center mb-4">AI & ML Introduction</h1>
 //         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 //           <div className="bg-gray-800 p-4 rounded-lg shadow-xl hover:scale-105 transform transition-all duration-300">
@@ -26,7 +26,7 @@
 //       </div>
 
 //       {/* NLP Section */}
-//       <div className="bg-gradient-to-r from-teal-300 to-indigo-300 p-8 rounded-xl shadow-2xl space-y-6 mt-8">
+//       <div className="bg-linear-to-r from-teal-300 to-indigo-300 p-8 rounded-xl shadow-2xl space-y-6 mt-8">
 //         <h1 className="text-2xl sm:text-3xl font-semibold text-blue-500 text-center mb-4">NLP</h1>
 //         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 //           <div className="bg-gray-800 p-4 rounded-lg shadow-xl hover:scale-105 transform transition-all duration-300">
@@ -36,7 +36,7 @@
 //       </div>
 
 //       {/* Deep Learning Section */}
-//       <div className="bg-gradient-to-r from-teal-300 to-indigo-300 p-8 rounded-xl shadow-2xl space-y-6 mt-8">
+//       <div className="bg-linear-to-r from-teal-300 to-indigo-300 p-8 rounded-xl shadow-2xl space-y-6 mt-8">
 //         <h1 className="text-2xl sm:text-3xl font-semibold text-green-500 text-center mb-4">Deep Learning</h1>
 //         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 //           <div className="bg-gray-800 p-4 rounded-lg shadow-xl hover:scale-105 transform transition-all duration-300">
@@ -46,7 +46,7 @@
 //       </div>
 
 //       {/* Generative AI Section */}
-//       <div className="bg-gradient-to-r from-teal-300 to-indigo-300 p-8 rounded-xl shadow-2xl space-y-6 mt-8">
+//       <div className="bg-linear-to-r from-teal-300 to-indigo-300 p-8 rounded-xl shadow-2xl space-y-6 mt-8">
 //         <h1 className="text-2xl sm:text-3xl font-semibold text-orange-500 text-center mb-4">Generative AI</h1>
 //         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 //           <div className="bg-gray-800 p-4 rounded-lg shadow-xl hover:scale-105 transform transition-all duration-300">
@@ -56,7 +56,7 @@
 //       </div>
 
 //       {/* Flask Section */}
-//       <div className="bg-gradient-to-r from-teal-300 to-indigo-300 p-8 rounded-xl shadow-2xl space-y-6 mt-8">
+//       <div className="bg-linear-to-r from-teal-300 to-indigo-300 p-8 rounded-xl shadow-2xl space-y-6 mt-8">
 //         <h1 className="text-2xl sm:text-3xl font-semibold text-red-500 text-center mb-4">Flask</h1>
 //         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 //           <div className="bg-gray-800 p-4 rounded-lg shadow-xl hover:scale-105 transform transition-all duration-300">
@@ -66,7 +66,7 @@
 //       </div>
 
 //       {/* Gemini Clone Section */}
-//       <div className="bg-gradient-to-r from-teal-300 to-indigo-300 p-8 rounded-xl shadow-2xl space-y-6 mt-8">
+//       <div className="bg-linear-to-r from-teal-300 to-indigo-300 p-8 rounded-xl shadow-2xl space-y-6 mt-8">
 //         <h1 className="text-2xl sm:text-3xl font-semibold text-purple-500 text-center mb-4">Gemini Clone</h1>
 //         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 //           <div className="bg-gray-800 p-4 rounded-lg shadow-xl hover:scale-105 transform transition-all duration-300">
@@ -76,7 +76,7 @@
 //       </div>
 
 //       {/* OpenCV Section */}
-//       <div className="bg-gradient-to-r from-teal-300 to-indigo-300 p-8 rounded-xl shadow-2xl space-y-6 mt-8">
+//       <div className="bg-linear-to-r from-teal-300 to-indigo-300 p-8 rounded-xl shadow-2xl space-y-6 mt-8">
 //         <h1 className="text-2xl sm:text-3xl font-semibold text-cyan-500 text-center mb-4">OpenCV</h1>
 //         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 //           <div className="bg-gray-800 p-4 rounded-lg shadow-xl hover:scale-105 transform transition-all duration-300">
@@ -213,7 +213,7 @@ const CalendarWidget = () => {
               day === null ? 'invisible' : ''
             } ${
               day === today 
-                ? 'bg-gradient-to-br from-fuchsia-500 to-purple-600 text-white font-bold shadow-lg shadow-fuchsia-500/30'
+                ? 'bg-linear-to-br from-fuchsia-500 to-purple-600 text-white font-bold shadow-lg shadow-fuchsia-500/30'
                 : 'text-gray-300 hover:bg-white/10'
             }`}
           >
@@ -247,7 +247,7 @@ const CourseCard = ({ title, imageUrl, onClick }) => (
     </div>
     
     {/* Overlay for text readability */}
-    <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+    <div className="absolute inset-0 bg-linear-to-t from-black/80 to-transparent"></div>
     
     <div className="relative p-3 flex flex-col justify-end h-full">
       <h3 className="text-sm font-semibold text-white z-10">{title}</h3>
@@ -300,7 +300,7 @@ const AimlVl = () => {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black p-4 md:p-8 flex items-center justify-center">
+        <div className="min-h-screen bg-linear-to-br from-gray-900 to-black p-4 md:p-8 flex items-center justify-center">
             
             {/* Main Dashboard Container (Frosted Glass) */}
             <div className="w-full max-w-6xl p-6 md:p-10 rounded-3xl backdrop-blur-md bg-white/5 
@@ -309,8 +309,8 @@ const AimlVl = () => {
                 {/* Header (CodeNexus Academy) */}
                 <div className="text-center mb-10">
                     <h1 className="text-4xl md:text-5xl font-extrabold 
-                        bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-white pb-2">
-                        Learn Peak - AI & ML
+                        bg-clip-text text-transparent bg-linear-to-r from-cyan-400 to-white pb-2">
+                        FlixerLearn - AI & ML
                     </h1>
                 </div>
 
@@ -341,7 +341,7 @@ const AimlVl = () => {
 
                         {/* Glowing Calendar Icon Widget */}
                         <div className="relative flex flex-col items-center justify-center p-6 rounded-xl 
-                            bg-gradient-to-br from-pink-700/20 to-purple-700/20 backdrop-blur-sm 
+                            bg-linear-to-br from-pink-700/20 to-purple-700/20 backdrop-blur-sm 
                             border border-fuchsia-600/30 shadow-2xl shadow-fuchsia-500/20 overflow-hidden">
                             {/* Glowing Calendar Icon */}
                             <svg className="w-20 h-20 text-fuchsia-400 mb-4 drop-shadow-lg shadow-fuchsia-400/50" fill="currentColor" viewBox="0 0 24 24">
@@ -349,9 +349,9 @@ const AimlVl = () => {
                             </svg>
                             {/* Holographic base effect */}
                             <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-48 h-12 rounded-full 
-                                bg-gradient-to-r from-transparent via-cyan-400/40 to-transparent blur-md"></div>
+                                bg-linear-to-r from-transparent via-cyan-400/40 to-transparent blur-md"></div>
                             <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-36 h-6 rounded-full 
-                                bg-gradient-to-r from-transparent via-purple-400/60 to-transparent blur-sm"></div>
+                                bg-linear-to-r from-transparent via-purple-400/60 to-transparent blur-sm"></div>
                         </div>
                     </div>
 
