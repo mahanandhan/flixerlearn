@@ -1,0 +1,84 @@
+{
+  "datasetName": "PythonConceptsDataset",
+  "description": "A dataset of Python programming topics, keywords, and detailed concept explanations for building an educational Q&A bot.",
+  "data": [
+    {
+      "topic": "Introduction to Python",
+      "keywords": ["python", "introduction", "features", "installation"],
+      "concept": "Python is a high-level, interpreted programming language known for its readability and versatility. It supports multiple programming paradigms including procedural, object-oriented, and functional programming. Python code is easy to write and execute.",
+      "exampleCode": "print(\"Welcome to Python\")"
+    },
+    {
+      "topic": "Data Types",
+      "keywords": ["int", "float", "boolean", "string", "list", "tuple", "dictionary"],
+      "concept": "Python supports several built-in data types such as int, float, bool and str. An int stores whole numbers, a float stores decimal numbers, a bool stores either True or False, and a string stores text.\n\nExample code:\n``````\n",
+      "exampleCode": "# int example\na = 10\nprint(\"a =\", a, \"type:\", type(a))\n\n# float example\nb = 3.5\nprint(\"b =\", b, \"type:\", type(b))\n\n# bool example\nis_pass = True\nprint(\"is_pass =\", is_pass, \"type:\", type(is_pass))\n\n# string example\nname = \"Rahul\"\nprint(\"name =\", name, \"type:\", type(name))"
+    },
+    {
+      "topic": "Variables and Expressions",
+      "keywords": ["variables", "expressions", "assignment", "operators"],
+      "concept": "Variables in Python store references to data objects. You assign a value to a variable using the '=' operator. Expressions combine variables, values, and operators to produce new values.\n\nExample code:\n``````\n",
+      "exampleCode": "x = 10\ny = 5\n\ntotal = x + y\nprint(\"total =\", total)\n\naverage = total / 2\nprint(\"average =\", average)"
+    },
+    {
+      "topic": "Conditional Statements",
+      "keywords": ["if", "else", "elif", "conditional"],
+      "concept": "Conditional statements control the flow of execution based on boolean conditions. The if block runs when the condition is True, otherwise the else block runs.\n\nExample code:\n``````\n",
+      "exampleCode": "marks = 80\n\nif marks >= 75:\n    print(\"Great\")\nelse:\n    print(\"Not great\")"
+    },
+    {
+      "topic": "Loops in Python",
+      "keywords": ["while", "for", "loop", "iteration", "break", "continue"],
+      "concept": "Loops repeat actions multiple times. A for loop iterates over a range of values and a while loop repeats while its condition is True.\n\nExample code:\n``````\n",
+      "exampleCode": "# for loop\nfor i in range(1, 6):\n    print(\"i =\", i)\n\n# while loop\ncount = 1\nwhile count <= 3:\n    print(\"count =\", count)\n    count = count + 1"
+    },
+    {
+      "topic": "Functions",
+      "keywords": ["function", "def", "parameters", "arguments", "return", "recursive"],
+      "concept": "Functions encapsulate reusable code. You define a function with def, pass values as arguments, and use return to send a result back.\n\nExample code:\n``````\n",
+      "exampleCode": "def add(a, b):\n    return a + b\n\nresult = add(4, 6)\nprint(\"4 + 6 =\", result)"
+    },
+    {
+      "topic": "Strings and String Operations",
+      "keywords": ["string", "slicing", "immutable", "methods", "concatenation"],
+      "concept": "Strings are immutable sequences of characters. You can index a string to get one character, slice it to get a part, and call methods to change how it looks.\n\nExample code:\n``````\n",
+      "exampleCode": "text = \"python\"\n\nprint(text[0])        # first character\nprint(text[1:4])      # slicing\nprint(text.upper())   # PYTHON"
+    },
+    {
+      "topic": "Lists",
+      "keywords": ["list", "mutable", "append", "remove", "slicing"],
+      "concept": "Lists are ordered, mutable collections with many useful methods. You can add new elements, loop through all elements, and modify them.\n\nExample code:\n``````\n",
+      "exampleCode": "nums = [10, 20, 30]\n\nnums.append(40)\nprint(nums)\n\nfor n in nums:\n    print(\"value =\", n)"
+    },
+    {
+      "topic": "Tuples",
+      "keywords": ["tuple", "immutable", "sequence"],
+      "concept": "Tuples are similar to lists but are immutable (cannot be changed). They are useful when you want to store fixed data like coordinates.\n\nExample code:\n``````\n",
+      "exampleCode": "point = (2, 5)\n\nx, y = point\nprint(\"x =\", x)\nprint(\"y =\", y)"
+    },
+    {
+      "topic": "Dictionaries",
+      "keywords": ["dictionary", "dict", "key", "value", "mapping"],
+      "concept": "Dictionaries hold key-value pairs. You can read or update values using their keys.\n\nExample code:\n``````\n",
+      "exampleCode": "student = {\"name\": \"Rahul\", \"age\": 20}\n\nprint(student[\"name\"])\n\nstudent[\"age\"] = 21\nprint(student)"
+    },
+    {
+      "topic": "File Handling",
+      "keywords": ["file", "open", "read", "write", "close", "with statement"],
+      "concept": "Python supports reading and writing files. The with statement is commonly used so files are closed automatically after use.\n\nExample code:\n``````\n",
+      "exampleCode": "with open(\"demo.txt\", \"w\") as f:\n    f.write(\"Hello file\")\n\nwith open(\"demo.txt\", \"r\") as f:\n    data = f.read()\n    print(data)"
+    },
+    {
+      "topic": "Modules and Packages",
+      "keywords": ["module", "package", "import", "library"],
+      "concept": "Modules are Python files that contain reusable code. You can import a module and use the functions and variables defined inside it.\n\nExample code:\n``````\n",
+      "exampleCode": "import math\n\nvalue = math.sqrt(25)\nprint(\"square root of 25 =\", value)"
+    },
+    {
+      "topic": "Exception Handling",
+      "keywords": ["try", "except", "finally", "raise", "error"],
+      "concept": "Exceptions allow graceful error handling so the program does not crash when something unexpected happens. Code that might fail is put inside try, and errors are handled in except.\n\nExample code:\n``````\n",
+      "exampleCode": "try:\n    num = int(input(\"Enter a number: \"))\n    print(10 / num)\nexcept ZeroDivisionError:\n    print(\"You entered 0\")"
+    }
+  ]
+}
