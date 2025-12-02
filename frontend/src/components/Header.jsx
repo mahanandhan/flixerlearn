@@ -64,6 +64,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => (
         <nav className="space-y-6">
             <Link to="/" className="p-3 rounded-xl bg-indigo-700 text-white shadow-lg shadow-indigo-700/50 cursor-pointer block">
                 <HomeIcon className="w-6 h-6" />
+                <p>Home</p>
             </Link>
             
             <Link 
@@ -72,10 +73,15 @@ const Sidebar = ({ isOpen, toggleSidebar }) => (
                 style={{ boxShadow: `0 0 10px #3B82F61A`, border: `1px solid #3B82F633` }}
             >
                 <FcAbout className="w-6 h-6"/>
+                <p>About</p>
             </Link>
 
             <div className="p-3 rounded-xl text-gray-500 mt-16 hover:text-pink-400 cursor-pointer border border-pink-400/50">
-                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z" /></svg>
+                <Link to="/helpdesk">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/></svg>
+                    <p href='/helpdesk'>Help Desk</p>
+                </Link>
+                
             </div>
         </nav>
     </div>

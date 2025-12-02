@@ -49,6 +49,7 @@ import About from './pages/About'
 import Pythonbot from './pages/bot/Pythonbot.jsx'
 import Javabot from './pages/bot/Javabot.jsx'
 import CodeEditor from './components/CodeEditor.jsx'
+import HelpDesk from './components/HelpDesk.jsx'
 const App = () => {
   return (
     <div>
@@ -102,6 +103,7 @@ const App = () => {
         <Route path='/pythonbot' element={<Pythonbot />} />
         <Route path='/javabot' element={<Javabot />} />
         <Route path="/compiler" element={<CodeEditor />} />
+        <Route path='/helpdesk' element={<HelpDesk />} />
       </Routes>
     </div>
   )
