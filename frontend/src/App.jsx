@@ -48,6 +48,7 @@ import JavaIq from './pages/interview/JavaIq'
 import About from './pages/About'
 import Pythonbot from './pages/bot/Pythonbot.jsx'
 import Javabot from './pages/bot/Javabot.jsx'
+import CodeEditor from './components/CodeEditor.jsx'
 const App = () => {
   return (
     <div>
@@ -100,6 +101,7 @@ const App = () => {
         <Route path='about' element={<About />} />
         <Route path='/pythonbot' element={<Pythonbot />} />
         <Route path='/javabot' element={<Javabot />} />
+        <Route path="/compiler" element={<CodeEditor />} />
       </Routes>
     </div>
   )
