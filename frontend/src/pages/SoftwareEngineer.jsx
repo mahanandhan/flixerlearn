@@ -290,7 +290,7 @@ const SoftwareEngineer = () => {
           {courses.map((course, idx) => (
             <div
               key={idx}
-              className="p-6 rounded-2xl bg-gradient-to-br from-blue-400/30 to-purple-500/30 backdrop-blur-md border border-white/20 shadow-xl cursor-pointer hover:scale-105 transition"
+              className="p-6 rounded-2xl bg-linear-to-br from-blue-400/30 to-purple-500/30 backdrop-blur-md border border-white/20 shadow-xl cursor-pointer hover:scale-105 transition"
               
             >
               <h2 className="text-xl font-bold mb-2 text-white drop-shadow">{course}</h2>
