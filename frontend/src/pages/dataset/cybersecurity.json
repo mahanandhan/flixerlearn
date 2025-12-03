@@ -1,0 +1,91 @@
+{
+  "datasetName": "CyberSecurityConceptsDataset",
+  "description": "A dataset of Cyber Security topics, keywords, and concept explanations for building an educational Q&A bot.",
+  "data": [
+    {
+      "topic": "Introduction to Cyber Security",
+      "keywords": ["cyber security", "information security", "overview"],
+      "concept": "Cyber security is the practice of protecting computer systems, networks, and data from unauthorized access, damage, or misuse. It covers technologies, processes, and policies that keep information confidential, accurate, and available to authorized users. Modern cyber security defends not only personal computers but also cloud services, mobile devices, and critical infrastructure."
+    },
+    {
+      "topic": "CIA Triad",
+      "keywords": ["cia triad", "confidentiality", "integrity", "availability"],
+      "concept": "The CIA triad is a core model that defines three main security goals. Confidentiality means data is only accessible to authorized people or systems, often enforced with access control and encryption. Integrity ensures data is accurate and unaltered, while availability ensures systems and information are accessible when needed, even under failures or attacks."
+    },
+    {
+      "topic": "Malware Types",
+      "keywords": ["malware", "virus", "worm", "trojan", "ransomware", "spyware"],
+      "concept": "Malware is malicious software designed to harm systems, steal data, or disrupt services. Viruses attach to legitimate files and spread when those files execute, while worms replicate themselves across networks without user action. Trojans disguise themselves as useful programs, ransomware encrypts data and demands payment, and spyware secretly collects user information."
+    },
+    {
+      "topic": "Network Attacks",
+      "keywords": ["dos", "ddos", "sniffing", "spoofing", "man in the middle"],
+      "concept": "Network attacks target communication channels and services that move data between systems. Denial of Service (DoS) and Distributed DoS attempts overwhelm a server or network with traffic so that legitimate users cannot access it. Sniffing captures network packets to read sensitive data, spoofing forges IP or MAC addresses, and man-in-the-middle attacks intercept and possibly modify traffic between two parties."
+    },
+    {
+      "topic": "Authentication and Authorization",
+      "keywords": ["authentication", "authorization", "identity", "access control"],
+      "concept": "Authentication verifies that a user or system is who they claim to be, often using passwords, one‑time codes, biometrics, or security keys. Authorization happens after authentication and decides what actions or data that identity is allowed to access. Together they form access control, which is essential for enforcing least privilege and limiting damage if an account is compromised."
+    },
+    {
+      "topic": "Passwords and Multi‑Factor Authentication",
+      "keywords": ["passwords", "mfa", "2fa", "otp"],
+      "concept": "Passwords are the most common authentication method but are often weak or reused, making them easy to guess or steal. Multi‑factor authentication (MFA) adds extra checks such as one‑time codes, push approvals, or hardware tokens so that attackers need more than just a password. Using long unique passwords with MFA significantly reduces the risk of account takeover."
+    },
+    {
+      "topic": "Encryption Basics",
+      "keywords": ["encryption", "symmetric", "asymmetric", "keys"],
+      "concept": "Encryption transforms readable data (plaintext) into unreadable form (ciphertext) so that only someone with the correct key can recover the original data. Symmetric encryption uses the same secret key for both encryption and decryption, while asymmetric encryption uses a public key to encrypt and a private key to decrypt. Encryption is used to secure network traffic, stored data, and backups against unauthorized access."
+    },
+    {
+      "topic": "Public Key Infrastructure",
+      "keywords": ["pki", "digital certificates", "tls", "https"],
+      "concept": "Public Key Infrastructure (PKI) manages digital certificates that bind public keys to identities such as websites or organizations. Browsers and operating systems trust certificate authorities that issue and sign these certificates after verification. When visiting an HTTPS site, TLS uses certificates and public‑key cryptography to authenticate the server and establish an encrypted connection."
+    },
+    {
+      "topic": "Web Application Vulnerabilities",
+      "keywords": ["sql injection", "xss", "csrf", "owasp top 10"],
+      "concept": "Web applications can contain flaws that let attackers manipulate input and break security. SQL injection occurs when untrusted input is used to build database queries, allowing attackers to read or modify data. Cross‑site scripting (XSS) injects malicious scripts into web pages viewed by other users, while cross‑site request forgery (CSRF) tricks a logged‑in user’s browser into performing unwanted actions on a site."
+    },
+    {
+      "topic": "Secure Coding Practices",
+      "keywords": ["secure coding", "input validation", "least privilege"],
+      "concept": "Secure coding practices aim to prevent vulnerabilities before software is deployed. Developers validate and sanitize all external input, avoid constructing dynamic queries from untrusted data, and use prepared statements and parameterized APIs. Applying the principle of least privilege to application components and services minimizes the impact if one part of the system is compromised."
+    },
+    {
+      "topic": "Firewalls and IDS/IPS",
+      "keywords": ["firewall", "ids", "ips", "network security"],
+      "concept": "Firewalls filter traffic between networks based on rules that allow or block specific IP addresses, ports, or protocols. Intrusion Detection Systems (IDS) monitor traffic and logs to flag suspicious patterns, whereas Intrusion Prevention Systems (IPS) can automatically block or drop malicious connections. These tools form a perimeter defense that reduces exposure to external threats."
+    },
+    {
+      "topic": "Endpoint Security",
+      "keywords": ["endpoint", "antivirus", "edr"],
+      "concept": "Endpoint security focuses on protecting individual devices such as laptops, servers, and mobile phones where attacks often begin. Traditional antivirus tools detect known malicious files, while modern Endpoint Detection and Response (EDR) solutions monitor behavior to catch new or sophisticated threats. Keeping endpoints patched, restricted, and monitored limits how far attackers can move inside a network."
+    },
+    {
+      "topic": "Social Engineering and Phishing",
+      "keywords": ["social engineering", "phishing", "vishing"],
+      "concept": "Social engineering attacks exploit human trust rather than technical weaknesses, persuading users to reveal secrets or perform harmful actions. Phishing emails or messages pretend to be from trusted organizations and often include links to fake login pages or attachments containing malware. Training users to verify requests, check URLs, and report suspicious messages is a key defense against these attacks."
+    },
+    {
+      "topic": "Vulnerability Management and Patching",
+      "keywords": ["vulnerability", "patching", "updates", "scanner"],
+      "concept": "Vulnerability management is the process of finding, prioritizing, and fixing security weaknesses in software and systems. Organizations use scanners and inventories to identify outdated components or misconfigurations, then apply patches or configuration changes to close gaps. Regular patching reduces the time window attackers have to exploit known vulnerabilities."
+    },
+    {
+      "topic": "Incident Response Basics",
+      "keywords": ["incident response", "detection", "containment", "recovery"],
+      "concept": "Incident response is a structured approach for handling security breaches or suspected attacks. Typical steps include preparing procedures, detecting and analyzing suspicious activity, containing affected systems to stop the spread, eradicating the root cause, and recovering normal operations. After an incident, teams perform a lessons‑learned review to strengthen defenses and update playbooks."
+    },
+    {
+      "topic": "Network Segmentation and Zero Trust",
+      "keywords": ["network segmentation", "zero trust", "lateral movement"],
+      "concept": "Network segmentation divides a large network into smaller zones so that a compromise in one area does not automatically expose everything else. Zero Trust architecture goes further by assuming no user or device is trusted by default, even inside the network perimeter. In Zero Trust, access is granted per request based on identity, device health, and context to reduce lateral movement opportunities for attackers."
+    },
+    {
+      "topic": "Cloud Security Fundamentals",
+      "keywords": ["cloud security", "shared responsibility", "iam"],
+      "concept": "Cloud security focuses on protecting resources hosted on platforms such as IaaS, PaaS, and SaaS. Providers secure the underlying infrastructure, while customers are responsible for configuring identity, access policies, encryption, and application‑level protections. Understanding the shared responsibility model and using strong Identity and Access Management (IAM) controls are essential for safe cloud deployments."
+    }
+  ]
+}

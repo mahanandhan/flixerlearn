@@ -52,6 +52,9 @@ import CodeEditor from './components/CodeEditor.jsx'
 import HelpDesk from './components/HelpDesk.jsx'
 import AiMlbot from './pages/bot/AiMlbot.jsx'
 import ArVrbot from './pages/bot/ArVrbot.jsx'
+import BlockChainbot from './pages/bot/BlockChainbot.jsx'
+import Cybersecuritybot from './pages/bot/Cybersecuritybot.jsx'
+import Datasciencebot from './pages/bot/Datasciencebot.jsx'
 const App = () => {
   return (
     <div>
@@ -106,6 +109,9 @@ const App = () => {
         <Route path='/javabot' element={<Javabot />} />
         <Route path='/aimlbot' element={<AiMlbot />} />
         <Route path="/arvrbot" element={<ArVrbot />} />
+        <Route path='/blockchainbot' element={<BlockChainbot />} />
+        <Route path='/cybersecuritybot' element={<Cybersecuritybot />} />
+        <Route path='/datasciencebot' element={ <Datasciencebot />} />
         <Route path="/compiler" element={<CodeEditor />} />
         <Route path='/helpdesk' element={<HelpDesk />} />
       </Routes>

@@ -1,0 +1,56 @@
+{
+  "datasetName": "BlockchainConceptsDataset",
+  "description": "A dataset of Blockchain technology topics, keywords, and concept explanations for building an educational Q&A bot.",
+  "data": [
+    {
+      "topic": "Introduction to Blockchain",
+      "keywords": ["blockchain", "distributed ledger", "overview"],
+      "concept": "Blockchain is a distributed ledger technology that stores transactions in a chain of blocks replicated across many nodes in a network.[web:173][web:175] Each block contains a set of validated transactions plus a cryptographic hash that links it to the previous block, creating an ordered and tamper-evident history.[web:176][web:183] This structure allows participants to share a single, trusted record without relying on a central authority.[web:175]"
+    },
+    {
+      "topic": "Blocks and Transactions",
+      "keywords": ["block", "transaction", "ledger", "record"],
+      "concept": "A transaction represents the transfer of an asset or update of data between participants in a blockchain network.[web:176] Multiple transactions are bundled into a block, which also stores metadata such as timestamps and hashes.[web:180][web:183] When a new block is accepted by the network, it is appended to the chain and becomes part of the permanent ledger.[web:176][web:180]"
+    },
+    {
+      "topic": "Hashing and Immutability",
+      "keywords": ["hash", "immutability", "tamper proof", "security"],
+      "concept": "Cryptographic hash functions convert arbitrary input data into fixed-length hash values that change drastically if the input is modified even slightly.[web:182][web:190] In blockchain, each block includes the hash of its own contents and the hash of the previous block, so altering any data breaks the chain and is easy to detect, giving the ledger strong immutability properties.[web:176][web:183] This design helps protect against unauthorized changes and supports verifiable data integrity.[web:176][web:190]"
+    },
+    {
+      "topic": "Merkle Trees",
+      "keywords": ["merkle tree", "merkle root", "transaction verification"],
+      "concept": "Merkle trees organize many transaction hashes into a binary tree whose root hash summarizes all transactions in a block.[web:179][web:182] By recomputing a small set of intermediate hashes, a node can verify that a particular transaction is included in the block without downloading every transaction, improving scalability and verification efficiency.[web:179][web:188] The Merkle root is stored in the block header and is protected by the hashing of block headers along the chain.[web:182][web:190]"
+    },
+    {
+      "topic": "Consensus Mechanisms",
+      "keywords": ["consensus", "proof of work", "proof of stake"],
+      "concept": "Consensus mechanisms define how nodes in a blockchain network agree on which transactions and blocks are valid.[web:174][web:177] In Proof of Work, miners compete to solve computational puzzles, and the winning block is added to the chain, while Proof of Stake selects validators based on stake or other economic weight to approve new blocks.[web:174][web:177] These protocols keep all copies of the ledger synchronized and help prevent double spending or conflicting histories in a decentralized setting.[web:175][web:177]"
+    },
+    {
+      "topic": "Public vs Private Blockchains",
+      "keywords": ["public blockchain", "private blockchain", "permissioned", "permissionless"],
+      "concept": "Public blockchains are open networks where anyone can join, read data, and often help validate transactions, making them highly decentralized and transparent.[web:178][web:189][web:191] Private blockchains restrict participation to authorized entities and can use lighter-weight consensus, giving more control, privacy, and higher transaction throughput for enterprise use cases.[web:178][web:181][web:187] Hybrid designs combine elements of both, using private chains for sensitive data and public chains for transparency or auditing.[web:178]"
+    },
+    {
+      "topic": "Smart Contracts",
+      "keywords": ["smart contract", "automation", "ethereum"],
+      "concept": "Smart contracts are programs deployed on a blockchain that automatically execute actions when predefined conditions are met.[web:174][web:186] Because they run on the shared ledger, all participants can see the contract logic and outputs, which increases transparency and reduces the need for intermediaries in processes such as payments, token transfers, or business agreements.[web:174][web:186] Smart-contract platforms like Ethereum enable developers to build decentralized applications on top of blockchain infrastructure.[web:175]"
+    },
+    {
+      "topic": "Blockchain Security",
+      "keywords": ["security", "cryptography", "digital signatures"],
+      "concept": "Blockchain security relies on cryptographic primitives such as hash functions and digital signatures to protect data and authenticate transactions.[web:190] Users sign transactions with private keys, and other nodes verify signatures using the corresponding public keys before accepting updates to the ledger.[web:190][web:173] Combined with consensus protocols and the immutability of chained blocks, this makes it difficult for attackers to alter historical data without controlling a large portion of network resources.[web:175][web:176]"
+    },
+    {
+      "topic": "Scalability and Performance",
+      "keywords": ["scalability", "throughput", "layer 2"],
+      "concept": "Early public blockchains prioritize decentralization and security, which can limit throughput and increase transaction latency and fees under heavy load.[web:178][web:191] To address this, new designs explore larger block sizes, sharding, and off-chain or layer‑2 solutions that move some processing off the main chain while periodically committing summaries back to it.[web:175][web:180] Private and consortium chains can also achieve higher performance by using fewer, more trusted validators and tailored consensus algorithms.[web:178][web:181]"
+    },
+    {
+      "topic": "Blockchain Use Cases",
+      "keywords": ["use cases", "cryptocurrency", "supply chain", "identity"],
+      "concept": "Cryptocurrencies are the best-known use case of blockchain, enabling peer‑to‑peer digital money without a central bank.[web:186][web:191] Beyond finance, blockchain can support supply-chain tracking, digital identity, healthcare records, asset tokenization, and auditable logging, where shared, tamper‑evident records increase trust between organizations.[web:175][web:176] The choice between public, private, or hybrid architectures depends on requirements for transparency, privacy, and governance in each application.[web:178][web:181]"
+    }
+  ]
+}

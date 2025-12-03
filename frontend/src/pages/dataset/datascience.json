@@ -1,0 +1,71 @@
+{
+  "datasetName": "DataScienceConceptsDataset",
+  "description": "A dataset of core Data Science topics, with a focus on Excel, Power BI, and SQL concepts for building an educational Q&A bot.",
+  "data": [
+    {
+      "topic": "Introduction to Data Science",
+      "keywords": ["data science", "overview", "workflow"],
+      "concept": "Data science combines statistics, programming, and domain knowledge to extract insights and build predictive models from data.[web:195][web:200] A typical workflow includes collecting raw data, cleaning and transforming it, exploring patterns, building models, and communicating results through visualizations and reports.[web:195][web:203]"
+    },
+    {
+      "topic": "Role of Excel in Data Analysis",
+      "keywords": ["excel", "spreadsheets", "pivot tables", "formulas"],
+      "concept": "Excel is widely used for quick data analysis, cleaning, and reporting, especially for small to medium-sized datasets.[web:210] It offers features such as tables, filters, pivot tables, and built‑in formulas that help summarize data, calculate metrics, and create basic charts without code.[web:210] Many analysts use Excel as a first step to validate data before moving it into more advanced tools like SQL or Power BI.[web:198][web:201]"
+    },
+    {
+      "topic": "Excel Data Cleaning and Formatting",
+      "keywords": ["excel cleaning", "data quality", "text functions"],
+      "concept": "In Excel, analysts clean data by removing duplicates, handling missing values, and fixing inconsistent formats using tools like Remove Duplicates, Find & Replace, and Data Validation.[web:210] Text and date functions such as TRIM, UPPER, LEFT, RIGHT, and DATEVALUE help standardize values so they can be reliably grouped and analyzed.[web:210] Well‑cleaned Excel data is much easier to load into SQL databases or Power BI models later.[web:198][web:204]"
+    },
+    {
+      "topic": "Excel Pivot Tables and Charts",
+      "keywords": ["pivot table", "pivot chart", "summary"],
+      "concept": "Pivot tables in Excel allow users to quickly summarize large tables by dragging fields into rows, columns, values, and filters.[web:195][web:210] They support aggregations like sum, count, and average, letting analysts compare metrics across dimensions such as time, product, or region without writing queries.[web:195][web:210] Pivot charts convert these summaries into bar, line, or pie charts for easier visual interpretation."
+    },
+    {
+      "topic": "SQL for Data Extraction",
+      "keywords": ["sql", "select", "where", "filter"],
+      "concept": "SQL is the standard language used to query relational databases and is often the first step in a data science pipeline.[web:199][web:202] The SELECT statement retrieves columns, while WHERE filters rows based on conditions so that only relevant subsets of data are returned for further analysis.[web:205][web:207] Analysts rely on SQL to pull clean, structured data into Excel, Python notebooks, or BI tools like Power BI.[web:198][web:201]"
+    },
+    {
+      "topic": "SQL Joins and Aggregations",
+      "keywords": ["joins", "inner join", "left join", "group by", "aggregate"],
+      "concept": "Joins in SQL combine data from multiple tables based on related keys, enabling richer analysis than any single table alone.[web:199][web:202][web:207] Aggregations such as SUM, COUNT, AVG, MIN, and MAX, often used with GROUP BY, summarize many rows into metrics like total sales or average order value.[web:199][web:209][web:211] Mastering joins and aggregations is essential for transforming raw transactional data into meaningful business insights."
+    },
+    {
+      "topic": "Using SQL with Excel and Power BI",
+      "keywords": ["excel with sql", "power bi with sql", "data pipeline"],
+      "concept": "Many analytics workflows start by using SQL to extract and pre‑aggregate data from a warehouse, then loading the results into Excel or Power BI for further analysis and visualization.[web:198][web:201][web:204] SQL handles heavy filtering and joins efficiently inside the database, while Excel is used for ad‑hoc checks and calculations and Power BI builds interactive dashboards on top of the curated dataset.[web:198][web:201][web:210]"
+    },
+    {
+      "topic": "Power BI Overview",
+      "keywords": ["power bi", "business intelligence", "dashboards"],
+      "concept": "Power BI is a business intelligence tool that connects to multiple data sources and turns them into interactive dashboards and reports.[web:208][web:212] It lets analysts build visuals, apply filters and slicers, and publish dashboards so stakeholders can explore metrics on their own in a browser or mobile app.[web:208][web:201] Power BI is especially powerful when paired with SQL backends and Excel files that store cleaned or manually maintained data."
+    },
+    {
+      "topic": "Power Query and Data Transformation",
+      "keywords": ["power query", "transform", "merge", "clean"],
+      "concept": "Power Query in Power BI and Excel is a visual data transformation engine used to import, clean, and reshape data before it reaches the data model.[web:208][web:204] Users can remove columns, unpivot tables, merge multiple sources, and define step‑by‑step transformations that automatically refresh when new data arrives.[web:208] This reduces repetitive manual cleaning and keeps dashboards in sync with underlying databases or spreadsheets."
+    },
+    {
+      "topic": "Data Modeling and DAX in Power BI",
+      "keywords": ["dax", "data model", "measures", "relationships"],
+      "concept": "In Power BI, tables loaded from various sources are connected through relationships to create a unified data model.[web:208] DAX (Data Analysis Expressions) is a formula language for defining measures and calculated columns that compute metrics such as year‑to‑date sales, running totals, or ratios on top of that model.[web:208][web:212] A well‑designed model with clear relationships and reusable DAX measures makes reports easier to maintain and extend."
+    },
+    {
+      "topic": "Exploratory Data Analysis",
+      "keywords": ["eda", "descriptive statistics", "visualization"],
+      "concept": "Exploratory Data Analysis (EDA) is the process of understanding a dataset through summary statistics, visualizations, and basic checks before building models.[web:193][web:200] Analysts look at distributions, correlations, missing values, and outliers using tools such as histograms, box plots, scatter plots, and correlation matrices.[web:193][web:196] EDA can be done in Excel, Python, R, or Power BI depending on dataset size and complexity."
+    },
+    {
+      "topic": "Statistics for Data Science",
+      "keywords": ["statistics", "probability", "distributions", "inference"],
+      "concept": "Statistics provides the mathematical foundation for data science by describing data, modeling uncertainty, and supporting rigorous conclusions.[web:193][web:194][web:196] Key ideas include probability distributions, sampling, confidence intervals, hypothesis tests, and regression, which help evaluate whether observed patterns are real or due to chance.[web:193][web:196][web:197] Understanding these concepts is critical for interpreting model results and communicating their reliability."
+    },
+    {
+      "topic": "End‑to‑End Data Analyst Workflow",
+      "keywords": ["workflow", "excel sql power bi", "pipeline"],
+      "concept": "A common workflow for data analysts is to use SQL to pull and pre‑aggregate data from databases, Excel to perform quick checks or add small manual inputs, and Power BI to build interactive dashboards for stakeholders.[web:198][web:201][web:210] This pipeline ensures that heavy processing occurs in the database, detailed validation and what‑if analysis happen in spreadsheets, and final insights are presented in visually rich, shareable reports.[web:201][web:204][web:210]"
+    }
+  ]
+}
