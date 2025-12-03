@@ -55,6 +55,7 @@ import ArVrbot from './pages/bot/ArVrbot.jsx'
 import BlockChainbot from './pages/bot/BlockChainbot.jsx'
 import Cybersecuritybot from './pages/bot/Cybersecuritybot.jsx'
 import Datasciencebot from './pages/bot/Datasciencebot.jsx'
+import Webdevelopmentbot from './pages/bot/Webdevelopmentbot.jsx'
 const App = () => {
   return (
     <div>
@@ -112,6 +113,7 @@ const App = () => {
         <Route path='/blockchainbot' element={<BlockChainbot />} />
         <Route path='/cybersecuritybot' element={<Cybersecuritybot />} />
         <Route path='/datasciencebot' element={ <Datasciencebot />} />
+        <Route path="/webdevbot" element={<Webdevelopmentbot />} />
         <Route path="/compiler" element={<CodeEditor />} />
         <Route path='/helpdesk' element={<HelpDesk />} />
       </Routes>

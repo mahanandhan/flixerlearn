@@ -1,0 +1,270 @@
+{
+  "datasetName": "WebDevelopmentConceptsDataset",
+  "description": "A dataset of HTML, CSS, and JavaScript topics, keywords, and concept explanations for building an educational web development Q&A bot.",
+  "data": [
+    {
+      "topic": "HTML Basics",
+      "keywords": ["HTML", "tags", "elements", "attributes", "doctype"],
+      "concept": "HTML uses elements with opening and closing tags to describe the structure of a web page, with attributes adding extra information such as ids, classes, and links.",
+      "exampleCode": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>Learn Peak</title>\n  </head>\n  <body>\n    <h1>Welcome to Learn Peak</h1>\n    <p>Build modern web apps and AI tools.</p>\n  </body>\n</html>"
+    },
+    {
+      "topic": "Head and Metadata",
+      "keywords": ["head", "metadata"],
+      "concept": "The head section contains metadata like page title, character encoding, icons, and links to stylesheets or scripts that configure how the page behaves.",
+      "exampleCode": "<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Learn Peak Dashboard</title>\n  <link rel=\"icon\" href=\"/favicon.ico\">\n  <link rel=\"stylesheet\" href=\"/styles.css\">\n</head>"
+    },
+    {
+      "topic": "Text and Inline Elements",
+      "keywords": ["headings", "paragraphs", "strong", "em", "span"],
+      "concept": "Headings define document outline levels, paragraphs group text, and inline elements like strong, em, and span add semantic or stylistic emphasis inside text.",
+      "exampleCode": "<h2>Featured Course</h2>\n<p>\n  Master <strong>Blockchain</strong> with hands‑on projects and\n  <em>real‑world</em> examples.\n</p>\n<p>\n  Level: <span class=\"badge badge-purple\">Intermediate</span>\n</p>"
+    },
+    {
+      "topic": "Links and Navigation",
+      "keywords": ["Links"],
+      "concept": "Anchor elements create navigation by linking to internal sections or external pages, and nav landmarks group sets of navigation links for menus or sidebars.",
+      "exampleCode": "<nav class=\"sidebar-nav\">\n  <a href=\"#dashboard\">Dashboard</a>\n  <a href=\"#courses\">Courses</a>\n  <a href=\"#compiler\">Code Compiler</a>\n</nav>"
+    },
+    {
+      "topic": "Images and Media",
+      "keywords": ["img", "alt", "video", "audio", "source"],
+      "concept": "Images and media elements embed visual and audio content, with alt text describing images for accessibility and source tags providing multiple encodings.",
+      "exampleCode": "<img src=\"/assets/blockchain-hero.png\" alt=\"Abstract blockchain nodes on a dark background\">\n\n<video controls width=\"480\">\n  <source src=\"/videos/intro.mp4\" type=\"video/mp4\">\n  <p>Your browser does not support the video tag.</p>\n</video>"
+    },
+    {
+      "topic": "Lists and Tables",
+      "keywords": ["ul", "ol", "li", "table", "thead", "tbody"],
+      "concept": "Unordered and ordered lists group related items, while tables display tabular data using rows and columns with headers, bodies, and optional footers.",
+      "exampleCode": "<ul class=\"course-features\">\n  <li>Live compiler</li>\n  <li>AI assistant</li>\n  <li>Progress tracking</li>\n</ul>\n\n<table class=\"schedule\">\n  <thead>\n    <tr><th>Day</th><th>Topic</th></tr>\n  </thead>\n  <tbody>\n    <tr><td>Mon</td><td>HTML & Semantics</td></tr>\n    <tr><td>Tue</td><td>CSS Layout</td></tr>\n  </tbody>\n</table>"
+    },
+    {
+      "topic": "HTML Forms",
+      "keywords": ["form", "input", "label", "textarea", "select"],
+      "concept": "Forms collect user input with labeled controls and use attributes like name, type, value, and required so data can be validated and sent to a server.",
+      "exampleCode": "<form class=\"login-form\">\n  <label>\n    Email\n    <input type=\"email\" name=\"email\" required>\n  </label>\n  <label>\n    Password\n    <input type=\"password\" name=\"password\" required>\n  </label>\n  <button type=\"submit\">Sign In</button>\n</form>"
+    },
+    {
+      "topic": "HTML5 Semantic Layout",
+      "keywords": ["header", "nav", "main", "section", "footer"],
+      "concept": "Semantic layout tags describe the purpose of page regions, improving accessibility and SEO by using elements like header, nav, main, section, article, aside, and footer.",
+      "exampleCode": "<body>\n  <header class=\"top-bar\">\n    <h1>Learn Peak</h1>\n  </header>\n\n  <nav class=\"side-menu\">\n    <!-- navigation links here -->\n  </nav>\n\n  <main>\n    <section id=\"courses\">\n      <h2>Popular Courses</h2>\n      <!-- course cards -->\n    </section>\n\n    <section id=\"compiler\">\n      <h2>Online Compiler</h2>\n      <!-- editor layout -->\n    </section>\n  </main>\n\n  <footer>\n    <p>© 2025 Learn Peak</p>\n  </footer>\n</body>"
+    },
+    {
+      "topic": "HTML5 Semantic Content Tags",
+      "keywords": ["article", "aside", "figure", "figcaption", "time"],
+      "concept": "Additional semantic elements describe self‑contained content, side notes, and annotated media, making blog posts, cards, and dashboards easier to structure.",
+      "exampleCode": "<article class=\"notification-card\">\n  <header>\n    <h3>New Event Reminder</h3>\n    <time datetime=\"2025-12-02T19:00\">Dec 2, 7:00 PM</time>\n  </header>\n  <p>Mastering AI live session starts soon.</p>\n  <figure>\n    <img src=\"/assets/reminder.png\" alt=\"Bell notification illustration\">\n    <figcaption>Stay updated with upcoming sessions.</figcaption>\n  </figure>\n</article>"
+    },
+    {
+      "topic": "Code Editor and Compiler Layout",
+      "keywords": ["editor", "textarea", "output panel", "split layout"],
+      "concept": "A simple in‑browser compiler layout places the code editor on the left and the output or preview panel on the right using a responsive flex or grid container.",
+      "exampleCode": "<section id=\"compiler\" class=\"editor-layout\">\n  <div class=\"editor-pane\">\n    <h3>Code</h3>\n    <textarea spellcheck=\"false\" class=\"code-editor\"></textarea>\n  </div>\n  <div class=\"output-pane\">\n    <h3>Output</h3>\n    <iframe class=\"output-frame\"></iframe>\n  </div>\n</section>"
+    },
+    {
+      "topic": "CSS Basics",
+      "keywords": ["selectors", "properties", "values", "cascade"],
+      "concept": "CSS describes how HTML should look using selectors to target elements and properties to control color, spacing, typography, and other visual aspects.",
+      "exampleCode": "body {\n  margin: 0;\n  font-family: system-ui, sans-serif;\n  background: #020617;\n  color: #e5e7eb;\n}\n\nh1, h2, h3 {\n  color: #f9fafb;\n}"
+    },
+    {
+      "topic": "Classes, IDs, and Reusable Styles",
+      "keywords": ["class", "id", "utility classes", "BEM"],
+      "concept": "Classes apply reusable styles to multiple elements, while ids uniquely identify a single element, and naming conventions help keep styles predictable.",
+      "exampleCode": ".btn-primary {\n  background: linear-gradient(90deg, #8b5cf6, #ec4899);\n  color: #f9fafb;\n  padding: 0.5rem 1.5rem;\n  border-radius: 9999px;\n  border: none;\n}\n\n#dashboard-title {\n  letter-spacing: 0.08em;\n  text-transform: uppercase;\n}"
+    },
+    {
+      "topic": "Layout with Flexbox and Grid",
+      "keywords": ["flexbox", "grid", "gap", "responsive layout"],
+      "concept": "Flexbox arranges items along a single axis, while CSS Grid creates two‑dimensional layouts with rows and columns, both supporting gaps and responsive changes.",
+      "exampleCode": ".dashboard-shell {\n  display: grid;\n  grid-template-columns: 2.2fr 1.1fr;\n  gap: 2rem;\n}\n\n.compiler-layout {\n  display: grid;\n  grid-template-columns: 1.2fr 1fr;\n  gap: 1.5rem;\n}\n\n@media (max-width: 768px) {\n  .dashboard-shell,\n  .compiler-layout {\n    grid-template-columns: 1fr;\n  }\n}"
+    },
+    {
+      "topic": "Interactive and State Styles",
+      "keywords": ["hover", "focus", "active", "transitions"],
+      "concept": "Pseudo‑classes like :hover, :focus, and :active style elements in response to user interaction, and transitions smooth visual changes for a modern feel.",
+      "exampleCode": ".btn-primary {\n  transition: transform 150ms ease, box-shadow 150ms ease;\n}\n\n.btn-primary:hover,\n.btn-primary:focus-visible {\n  transform: translateY(-2px);\n  box-shadow: 0 10px 30px rgba(15,23,42,0.7);\n}\n\ninput:focus-visible {\n  outline: 2px solid #38bdf8;\n  outline-offset: 2px;\n}"
+    },
+    {
+      "topic": "CSS Introduction",
+      "keywords": ["CSS", "style rules", "separation of concerns", "syntax"],
+      "concept": "CSS controls the visual presentation of HTML by matching selectors to elements and applying property–value pairs, keeping structure and design logically separated.",
+      "exampleCode": "h1 {\n  color: #f97316;\n  font-size: 2.25rem;\n}\n\np {\n  line-height: 1.6;\n  color: #e5e7eb;\n}"
+    },
+    {
+      "topic": "Selectors and Specificity",
+      "keywords": ["element selector", "class selector", "id selector", "specificity"],
+      "concept": "Different selector types target elements with varying strength, and the browser resolves conflicts by specificity: inline styles override ids, which override classes, which override type selectors.",
+      "exampleCode": "/* type selector */\nbutton { padding: 0.5rem 1.5rem; }\n\n/* class selector */\n.button-primary { background: #8b5cf6; color: white; }\n\n/* id selector */\n#enroll-btn { border-radius: 9999px; }"
+    },
+    {
+      "topic": "The Cascade and Inheritance",
+      "keywords": ["cascade", "inheritance", "!important", "order"],
+      "concept": "The cascade combines origin, specificity, and source order, while many text-related properties inherit from parent to child; the !important flag should be used rarely to force a value.",
+      "exampleCode": "body {\n  font-family: system-ui, sans-serif;\n  color: #e5e7eb;\n}\n\n.dashboard-title {\n  color: #f9fafb; /* overrides body color for this element only */\n}\n\n.muted {\n  color: #9ca3af !important; /* hard override (use sparingly) */\n}"
+    },
+    {
+      "topic": "Box Model and Sizing",
+      "keywords": ["box model", "margin", "border", "padding", "box-sizing"],
+      "concept": "Every element is a rectangular box with content, padding, border, and margin, and box-sizing controls whether width and height include padding and border or not.",
+      "exampleCode": "*, *::before, *::after {\n  box-sizing: border-box;\n}\n\n.card {\n  width: 320px;\n  padding: 1.25rem;\n  border-radius: 1rem;\n  border: 1px solid #1f2937;\n  margin: 1rem;\n}"
+    },
+    {
+      "topic": "Colors, Backgrounds, and Gradients",
+      "keywords": ["color", "background-color", "gradients", "images"],
+      "concept": "CSS colors can be expressed as named values, hex, rgb, or hsl, and backgrounds may be solid, image-based, or gradients layered together for modern UI effects.",
+      "exampleCode": ".page-shell {\n  background: radial-gradient(circle at top, #1d4ed8 0, #020617 55%, #000 100%);\n  color: #e5e7eb;\n}\n\n.enroll-badge {\n  background-color: #f97316;\n  color: #111827;\n}"
+    },
+    {
+      "topic": "Typography and Text",
+      "keywords": ["font-family", "font-size", "line-height", "letter-spacing"],
+      "concept": "Typography rules configure fonts, sizing scale, line spacing, and letter spacing to make content legible and consistent across headings, body text, and UI labels.",
+      "exampleCode": "body {\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;\n  font-size: 16px;\n  line-height: 1.5;\n}\n\nh1 {\n  font-size: 2.5rem;\n  letter-spacing: 0.08em;\n  text-transform: uppercase;\n}"
+    },
+    {
+      "topic": "Display and Positioning",
+      "keywords": ["display", "block", "inline", "position", "z-index"],
+      "concept": "The display property chooses how elements participate in layout, while positioning schemes like relative, absolute, fixed, and sticky control how boxes are placed and layered.",
+      "exampleCode": ".top-bar {\n  position: sticky;\n  top: 0;\n  z-index: 40;\n  display: flex;\n  align-items: center;\n}\n\n.notification-pill {\n  position: absolute;\n  top: -0.3rem;\n  right: -0.3rem;\n}"
+    },
+    {
+      "topic": "Flexbox Layout",
+      "keywords": ["flexbox", "axis", "justify-content", "align-items"],
+      "concept": "Flexbox arranges items along a main axis with powerful alignment and distribution options, ideal for toolbars, cards rows, and responsive single-dimensional layouts.",
+      "exampleCode": ".course-row {\n  display: flex;\n  gap: 1.5rem;\n  overflow-x: auto;\n}\n\n.course-row > .course-card {\n  flex: 0 0 260px;\n}"
+    },
+    {
+      "topic": "Grid Layout",
+      "keywords": ["grid", "template-columns", "template-rows", "areas"],
+      "concept": "CSS Grid provides two-dimensional control over rows and columns, letting designers define templates and place items precisely, which suits dashboards and editor layouts.",
+      "exampleCode": ".dashboard-grid {\n  display: grid;\n  grid-template-columns: 2.2fr 1.1fr;\n  gap: 2rem;\n}\n\n.compiler-grid {\n  display: grid;\n  grid-template-columns: 1.2fr 1fr;\n  gap: 1.5rem;\n}"
+    },
+    {
+      "topic": "Responsive Design and Media Queries",
+      "keywords": ["responsive", "media queries", "breakpoints"],
+      "concept": "Media queries apply different style blocks based on viewport width or other conditions, enabling layouts that adapt to mobiles, tablets, and large screens.",
+      "exampleCode": "@media (max-width: 768px) {\n  .dashboard-grid,\n  .compiler-grid {\n    grid-template-columns: 1fr;\n  }\n\n  .side-menu {\n    display: none;\n  }\n}"
+    },
+    {
+      "topic": "State and Interaction Pseudo-Classes",
+      "keywords": [":hover", ":focus", ":active", ":disabled"],
+      "concept": "Pseudo-classes style elements according to interaction state, such as hover or keyboard focus, which is essential for accessible, tactile feedback in buttons and links.",
+      "exampleCode": ".btn-primary {\n  background: linear-gradient(90deg, #8b5cf6, #ec4899);\n  color: #f9fafb;\n  transition: transform 150ms ease, box-shadow 150ms ease;\n}\n\n.btn-primary:hover,\n.btn-primary:focus-visible {\n  transform: translateY(-2px);\n  box-shadow: 0 10px 30px rgba(15,23,42,0.7);\n}"
+    },
+    {
+      "topic": "Pseudo-Elements and Generated Content",
+      "keywords": ["::before", "::after", "badges", "decorations"],
+      "concept": "Pseudo-elements create virtual elements before or after real content, useful for decorative shapes, status dots, and small labels without extra HTML nodes.",
+      "exampleCode": ".course-card::before {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  border-radius: 1.25rem;\n  border: 1px solid rgba(148,163,184,0.2);\n}"
+    },
+    {
+      "topic": "Transitions and Animations",
+      "keywords": ["transition", "animation", "keyframes"],
+      "concept": "Transitions interpolate property changes smoothly over time, while keyframe animations define more complex sequences like pulsing buttons or floating cards.",
+      "exampleCode": ".pulse-dot {\n  width: 10px;\n  height: 10px;\n  border-radius: 9999px;\n  background: #22c55e;\n  animation: pulse 1.5s infinite;\n}\n\n@keyframes pulse {\n  0% { transform: scale(1); opacity: 1; }\n  100% { transform: scale(2); opacity: 0; }\n}"
+    },
+    {
+      "topic": "Shadows, Borders, and Radii",
+      "keywords": ["box-shadow", "border-radius", "outline"],
+      "concept": "Shadows, rounded corners, and outlines shape the perceived depth and focus of UI components, distinguishing cards, modals, and interactive controls.",
+      "exampleCode": ".glass-card {\n  border-radius: 1.5rem;\n  border: 1px solid rgba(148,163,184,0.28);\n  box-shadow: 0 24px 60px rgba(15,23,42,0.9);\n  backdrop-filter: blur(24px);\n}"
+    },
+    {
+      "topic": "CSS Variables and Theming",
+      "keywords": ["custom properties", "variables", "themes"],
+      "concept": "CSS custom properties store reusable values such as colors and spacing tokens, making it easier to theme dashboards and switch between light and dark modes.",
+      "exampleCode": ":root {\n  --bg-dark: #020617;\n  --accent: #8b5cf6;\n  --accent-soft: #4c1d95;\n}\n\nbody {\n  background-color: var(--bg-dark);\n}\n\n.badge-accent {\n  background: var(--accent-soft);\n  color: #f9fafb;\n}"
+    },
+    {
+      "topic": "Utility and Component Architecture",
+      "keywords": ["utility classes", "components", "BEM", "scoping"],
+      "concept": "Organizing styles into small utilities and larger components keeps a design system maintainable, and naming patterns or scoping techniques prevent clashes in big apps.",
+      "exampleCode": "/* utilities */\n.text-xs { font-size: 0.75rem; }\n.text-muted { color: #9ca3af; }\n\n/* component */\n.compiler-panel {\n  background: #020617;\n  border-radius: 1.25rem;\n  border: 1px solid #1f2937;\n  padding: 1.25rem;\n}"
+    },
+    {
+      "topic": "JavaScript Basics",
+      "keywords": ["JavaScript", "script tag", "console", "statements", "Js"],
+      "concept": "JavaScript runs inside the browser to add interactivity to web pages, using statements and expressions that are loaded via script tags or external files.",
+      "exampleCode": "<script>\n  console.log(\"Welcome to Learn Peak\");\n</script>\n\n<script src=\"/scripts/app.js\"></script>"
+    },
+    {
+      "topic": "Variables and Data Types",
+      "keywords": ["let", "const", "var", "number", "string", "boolean"],
+      "concept": "Variables declared with let and const store values such as numbers, strings, and booleans, and JavaScript determines the type dynamically at runtime.",
+      "exampleCode": "let username = \"Arjun\";\nconst maxScore = 100;\nlet isEnrolled = true;\n\nconsole.log(username, maxScore, isEnrolled);"
+    },
+    {
+      "topic": "Operators and Expressions",
+      "keywords": ["arithmetic", "comparison", "logical", "assignment"],
+      "concept": "Operators combine values into expressions, including arithmetic for math, comparison for true or false checks, and logical operators for complex conditions.",
+      "exampleCode": "let score = 42 + 8;      // arithmetic\nlet passed = score >= 50; // comparison\nlet allowNext = passed || score === 49; // logical\nconsole.log(score, passed, allowNext);"
+    },
+    {
+      "topic": "Conditionals",
+      "keywords": ["if", "else", "switch", "ternary"],
+      "concept": "Conditional statements choose different code paths based on boolean tests, using if/else chains, switch cases, or compact ternary operators for simple decisions.",
+      "exampleCode": "let level = \"intermediate\";\n\nif (level === \"beginner\") {\n  console.log(\"Start with HTML and CSS.\");\n} else if (level === \"intermediate\") {\n  console.log(\"Time to practice JavaScript projects.\");\n} else {\n  console.log(\"Explore advanced topics and frameworks.\");\n}"
+    },
+    {
+      "topic": "Loops and Iteration",
+      "keywords": ["for", "while", "for...of", "forEach"],
+      "concept": "Loops repeat code over ranges or collections, and JavaScript provides classic for and while loops as well as higher level iteration over arrays.",
+      "exampleCode": "const courses = [\"HTML\", \"CSS\", \"JavaScript\"];\n\nfor (let i = 0; i < courses.length; i++) {\n  console.log(i, courses[i]);\n}\n\nfor (const course of courses) {\n  console.log(\"Course:\", course);\n}"
+    },
+    {
+      "topic": "Functions",
+      "keywords": ["function declaration", "parameters", "return", "arrow function"],
+      "concept": "Functions group reusable logic that can accept parameters and return values, and arrow functions provide a concise syntax for inline callbacks.",
+      "exampleCode": "function greet(name) {\n  return `Welcome back, ${name}!`;\n}\n\nconst sum = (a, b) => a + b;\n\nconsole.log(greet(\"Arjun\"));\nconsole.log(sum(5, 7));"
+    },
+    {
+      "topic": "Arrays",
+      "keywords": ["array", "index", "push", "map", "filter"],
+      "concept": "Arrays hold ordered lists of values and provide methods for adding, removing, and transforming items, which is essential for handling lists of data in apps.",
+      "exampleCode": "const scores = [72, 88, 95];\n\nscores.push(100);\nconst highScores = scores.filter(score => score >= 90);\n\nconsole.log(scores);\nconsole.log(highScores);"
+    },
+    {
+      "topic": "Objects",
+      "keywords": ["object literal", "properties", "methods", "this"],
+      "concept": "Objects group related data and behavior into key–value pairs, letting you model entities such as users, courses, or UI state with readable property access.",
+      "exampleCode": "const course = {\n  title: \"Blockchain Basics\",\n  level: \"Intermediate\",\n  enrolled: 1200,\n  describe() {\n    return `${this.title} (${this.level}) – ${this.enrolled} learners`;\n  }\n};\n\nconsole.log(course.title);\nconsole.log(course.describe());"
+    },
+    {
+      "topic": "DOM Selection and Manipulation",
+      "keywords": ["document", "querySelector", "textContent", "classList"],
+      "concept": "The DOM API lets JavaScript read and update HTML elements, changing text, attributes, and classes to respond to user interactions in real time.",
+      "exampleCode": "const titleEl = document.querySelector(\"#dashboard-title\");\n\ntitleEl.textContent = \"Learn Peak – JavaScript Lab\";\ntitleEl.classList.add(\"text-accent\");"
+    },
+    {
+      "topic": "Events and Handlers",
+      "keywords": ["click", "input", "addEventListener", "event object"],
+      "concept": "Event listeners run functions when users interact with the page, such as clicking buttons, typing in inputs, or submitting forms, making the UI dynamic.",
+      "exampleCode": "const enrollBtn = document.querySelector(\"#enroll-btn\");\n\nenrollBtn.addEventListener(\"click\", () => {\n  console.log(\"User clicked Enroll Now\");\n});"
+    },
+    {
+      "topic": "Working with JSON",
+      "keywords": ["JSON", "parse", "stringify", "APIs"],
+      "concept": "JSON represents structured data using JavaScript-like object syntax, and parse and stringify convert between JSON strings and in-memory objects for APIs.",
+      "exampleCode": "const json = '{\"title\":\"AI - Machine Learning\",\"level\":\"Advanced\"}';\n\nconst course = JSON.parse(json);\nconsole.log(course.title);\n\nconst payload = JSON.stringify(course);\nconsole.log(payload);"
+    },
+    {
+      "topic": "Fetch and Async Basics",
+      "keywords": ["fetch", "Promise", "async", "await"],
+      "concept": "Asynchronous code retrieves data from servers without blocking the UI, using promises and the async/await syntax to write readable async workflows.",
+      "exampleCode": "async function loadCourses() {\n  const res = await fetch(\"/api/courses\");\n  const data = await res.json();\n  console.log(\"Courses:\", data);\n}\n\nloadCourses().catch(err => console.error(err));"
+    },
+    {
+      "topic": "Modules and Imports",
+      "keywords": ["modules", "export", "import", "bundling"],
+      "concept": "ES modules split JavaScript into separate files that export values and functions, which can then be imported where needed to keep large projects organized.",
+      "exampleCode": "// stats.js\nexport function average(arr) {\n  return arr.reduce((sum, n) => sum + n, 0) / arr.length;\n}\n\n// dashboard.js\nimport { average } from \"./stats.js\";\n\nconsole.log(average([70, 80, 90]));"
+    },
+    {
+      "topic": "Error Handling and Debugging",
+      "keywords": ["try...catch", "throw", "console", "debugger"],
+      "concept": "Errors can be caught and handled with try/catch blocks, while console logging and browser devtools help you inspect variables and step through code.",
+      "exampleCode": "function parseLevel(raw) {\n  try {\n    const obj = JSON.parse(raw);\n    return obj.level;\n  } catch (err) {\n    console.error(\"Invalid JSON\", err);\n    return \"unknown\";\n  }\n}\n\nconsole.log(parseLevel('{\"level\":\"Beginner\"}'));\nconsole.log(parseLevel(\"not json\"));"
+    }
+  ]
+}
