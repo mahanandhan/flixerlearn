@@ -50,6 +50,8 @@ import Pythonbot from './pages/bot/Pythonbot.jsx'
 import Javabot from './pages/bot/Javabot.jsx'
 import CodeEditor from './components/CodeEditor.jsx'
 import HelpDesk from './components/HelpDesk.jsx'
+import AiMlbot from './pages/bot/AiMlbot.jsx'
+import ArVrbot from './pages/bot/ArVrbot.jsx'
 const App = () => {
   return (
     <div>
@@ -102,6 +104,8 @@ const App = () => {
         <Route path='about' element={<About />} />
         <Route path='/pythonbot' element={<Pythonbot />} />
         <Route path='/javabot' element={<Javabot />} />
+        <Route path='/aimlbot' element={<AiMlbot />} />
+        <Route path="/arvrbot" element={<ArVrbot />} />
         <Route path="/compiler" element={<CodeEditor />} />
         <Route path='/helpdesk' element={<HelpDesk />} />
       </Routes>
