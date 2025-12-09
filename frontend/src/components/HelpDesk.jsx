@@ -12,16 +12,16 @@ const HelpDesk = () => {
             Help Desk
           </h1>
           <p className="mt-2 text-sm text-slate-400">
-            Need help with a course, compiler, or account? Click the email below
-            to send us a message from your mail app, then we’ll reply to you.
+            Need help with a course, compiler, or account? Tap the button below
+            to open your email app, or copy the address and email us manually.
           </p>
         </div>
 
-        {/* clickable email card */}
+        {/* clickable email card (mailto) */}
         <a
           href={`mailto:${SUPPORT_EMAIL}`}
           className="
-            mb-6 flex items-center justify-between gap-3
+            mb-4 flex items-center justify-between gap-3
             rounded-2xl border border-cyan-400/50
             bg-linear-to-r from-sky-500/20 via-transparent to-pink-500/20
             px-4 py-3
@@ -31,13 +31,14 @@ const HelpDesk = () => {
         >
           <div>
             <p className="text-[11px] uppercase tracking-wide text-slate-300">
-              Click to send an email
+              Tap to open if you are using mobile devices
             </p>
             <p className="text-sm md:text-base font-semibold text-cyan-200">
               {SUPPORT_EMAIL}
             </p>
             <p className="mt-1 text-[11px] text-slate-400">
-              Opens your default email app with the address filled in.
+              This uses a mailto link. If nothing happens, use the options
+              below.
             </p>
           </div>
           <div className="flex h-11 w-11 items-center justify-center rounded-full bg-cyan-500/20 text-cyan-300 text-lg">
@@ -45,7 +46,30 @@ const HelpDesk = () => {
           </div>
         </a>
 
-        {/* optional helper fields (purely UI, no sending) */}
+        {/* Gmail fallback + copy info */}
+        <div className="mb-6 space-y-2">
+          <button
+            type="button"
+            onClick={() => {
+              window.open(
+                `https://mail.google.com/mail/?view=cm&fs=1&to=${SUPPORT_EMAIL}`,
+                "_blank",
+                "noopener,noreferrer"
+              );
+            }}
+            className="w-full rounded-2xl border border-emerald-400/60 bg-slate-900/80 px-4 py-2 text-sm font-semibold text-emerald-200 hover:bg-slate-900"
+          >
+            Open in Gmail (browser)
+          </button>
+          <p className="text-xs text-slate-400">
+            Or copy this address and paste it into any email app:
+          </p>
+          <div className="rounded-xl border border-slate-700 bg-slate-900/80 px-3 py-2 text-xs text-cyan-200 select-all">
+            {SUPPORT_EMAIL}
+          </div>
+        </div>
+
+        {/* template helper (pure UI) */}
         <div className="space-y-3">
           <p className="text-xs text-slate-400">
             Tip: You can copy this quick template into your email:
