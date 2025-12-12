@@ -9,8 +9,8 @@ const Welcome = () => {
       {/* Top navbar */}
       <header className="w-full px-8 lg:px-14 py-4 flex items-center justify-between border-b border-white/5 bg-[#050816]/80 backdrop-blur">
         <div className="flex items-center gap-3">
-          <div className="h-9 w-9 rounded-full bg-gradient-to-br from-fuchsia-500 to-cyan-400 flex items-center justify-center text-lg font-bold">
-            F
+          <div className="">
+            <img src="/flixerlearnlogo.jpg" alt="" className="rounded-4xl size-12 flex justify-center items-center"/>
           </div>
           <span className="text-xl font-semibold tracking-wide">
             FlixerLearn
