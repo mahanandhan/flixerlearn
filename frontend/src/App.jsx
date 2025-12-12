@@ -56,11 +56,12 @@ import BlockChainbot from './pages/bot/BlockChainbot.jsx'
 import Cybersecuritybot from './pages/bot/Cybersecuritybot.jsx'
 import Datasciencebot from './pages/bot/Datasciencebot.jsx'
 import Webdevelopmentbot from './pages/bot/Webdevelopmentbot.jsx'
+import Welcome from './components/Welcome.jsx'
 const App = () => {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/dashboard" element={<Main />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/webdevelopment" element={<WebDevelopment />} />
@@ -116,6 +117,7 @@ const App = () => {
         <Route path="/webdevbot" element={<Webdevelopmentbot />} />
         <Route path="/compiler" element={<CodeEditor />} />
         <Route path='/helpdesk' element={<HelpDesk />} />
+        <Route path='/' element={<Welcome />} />
       </Routes>
     </div>
   )
