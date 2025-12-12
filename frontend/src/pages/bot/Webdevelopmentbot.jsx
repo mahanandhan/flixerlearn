@@ -35,7 +35,7 @@ const Webdevelopmentbot = () => {
               setHelpMode(false);
               setHelpPage(0);
             }}
-            className="block w-full rounded-lg border border-sky-500/60 bg-gradient-to-tr from-sky-500/25 to-pink-500/35 px-3 py-2 text-left text-[13px] font-semibold text-slate-50"
+            className="block w-full rounded-lg border border-sky-500/60 bg-linear-to-tr from-sky-500/25 to-pink-500/35 px-3 py-2 text-left text-[13px] font-semibold text-slate-50"
           >
             {start + idx + 1}. {topic.topic}
           </button>
