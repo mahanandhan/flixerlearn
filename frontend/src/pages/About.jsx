@@ -64,7 +64,7 @@ const About = () => {
                   ◆
                 </span>
                 <div>
-                  <p className="font-medium">AI bot for every concept</p>
+                  <p className="font-medium">bot for every concept</p>
                   <p className="text-xs text-white/60">
                     Ask doubts, get summaries, and practice questions with a bot
                     that is tuned to the videos you watch.
